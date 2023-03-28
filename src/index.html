@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../dist/output.css" />
+    <title>Tailwind CSS</title>
+  </head>
+  <body>
+    <!-- navbar -->
+    <nav class="relative container mx-auto p-6">
+      <!-- flex container -->
+      <div class="flex items-center justify-between">
+        <!-- Logo -->
+        <div class="pt-2">
+          <img src="./img/logo.svg" alt="" />
+        </div>
+        <!-- links -->
+        <div class="hidden md:flex space-x-7">
+          <a href="#" class="hover:text-darkGrayishBlue">Pricing</a>
+          <a href="#" class="hover:text-darkGrayishBlue">Product</a>
+          <a href="#" class="hover:text-darkGrayishBlue">About Us</a>
+          <a href="#" class="hover:text-darkGrayishBlue">Careers</a>
+          <a href="#" class="hover:text-darkGrayishBlue">Community</a>
+        </div>
+        <!-- Button -->
+        <a
+          href="#"
+          class="hidden md:block p-3 px-6 pt-2 bg-brightRed hover:bg-brightRedLight rounded-full text-white"
+          >Get Start</a
+        >
+      </div>
+    </nav>
+    <section id="hero">
+      <div
+        class="container flex flex-col-reverse items-center md:flex-row mx-auto px-6 mt-10 space-x-6 space-y-0 md:space-y-0"
+      >
+        <!-- Left Division -->
+        <div class="flex flex-col space-y-12 mb-32 md:w-1/2">
+          <h1
+            class="max-w-md font-bold text-center text-4xl md:text-5xl md:text-left"
+          >
+            Bring everyone together to build better products.
+          </h1>
+          <p class="max-w-sm text-center text-darkGrayishBlue md:text-left">
+            Manage makes it simple for software teams to plan day-to-day tasks
+            while keeping the larger team goals in view.
+          </p>
+          <div class="flex flex-row items-start">
+              <a
+                href="#"
+                class="p-3 px-6 pt-2 bg-brightRed hover:bg-brightRedLight rounded-full text-white"
+                >Get Start</a
+              >
+          </div>
+        </div>
+        <!-- Right Division -->
+        <div class="md:w-1/2">
+          <img src="./img/illustration-intro.svg" alt="" />
+        </div>
+      </div>
+    </section>
+    <section id="feature">
+        <div class="container flex flex-col px-6 mx-auto mb-32 space-x-4 md:flex-row">
+            <div class="flex flex-col space-y-4 md:w-1/2">
+                <h2 class="max-w-md text-center font-bold md:text-left">
+                    What's different about Manage?
+                </h2>
+                <p class="max-w-sm text-center text-darkGrayishBlue md:text-left">
+                    Manage provides all the functionality your team needs, without
+                    the complexity. Our software is tailor-made for modern digital
+                    product teams.
+            </div>
+            <div class="flex flex-col px-6 space-y-6 md:w-1/2">
+                <div class="flex flex-col space-y-4">
+                    <img src="./img/icon-collaboration.svg" alt="" />
+                    <h3 class="font-bold">Collaboration</h3>
+                    <p class="text-darkGrayishBlue">
+                        Manage allows you to create shared to-do lists. So you can
+                        plan projects together.
+                    </p>
+                </div>
+                <div class="flex flex-col space-y-4">
+                    <img src="./img/icon-speed.svg" alt="" />
+                    <h3 class="font-bold">Speed</h3>
+                    <p class="text-darkGrayishBlue">
+                        Manage allows you to create shared to-do lists. So you can
+                        plan projects together.
+                    </p>
+                </div>
+                <div class="flex flex-col space-y-4">
+                    <img src="./img/icon-organization.svg" alt="" />
+                    <h3 class="font-bold">Organization</h3>
+                    <p class="text-darkGrayishBlue">
+                        Manage allows you to create shared to-do lists. So you can
+                        plan projects together.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+  </body>
+</html>
